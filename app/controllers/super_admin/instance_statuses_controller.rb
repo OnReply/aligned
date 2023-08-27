@@ -9,7 +9,7 @@ class SuperAdmin::InstanceStatusesController < SuperAdmin::ApplicationController
   end
 
   def chatwoot_edition
-    @metrics['Chatwoot edition'] = if ChatwootApp.enterprise?
+    @metrics['Asigned edition'] = if ChatwootApp.enterprise?
                                      'Enterprise'
                                    elsif ChatwootApp.custom?
                                      'Custom'
@@ -19,7 +19,7 @@ class SuperAdmin::InstanceStatusesController < SuperAdmin::ApplicationController
   end
 
   def chatwoot_version
-    @metrics['Chatwoot version'] = Chatwoot.config[:version]
+    @metrics['Asigned version'] = Chatwoot.config[:version]
   end
 
   def sha

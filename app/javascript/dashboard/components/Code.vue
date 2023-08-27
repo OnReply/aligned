@@ -42,7 +42,7 @@ export default {
     },
     codepenTitle: {
       type: String,
-      default: 'Chatwoot Codepen',
+      default: 'Asigned Codepen',
     },
   },
   computed: {

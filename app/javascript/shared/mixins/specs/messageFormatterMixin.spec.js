@@ -9,9 +9,9 @@ describe('messageFormatterMixin', () => {
     };
     const wrapper = shallowMount(Component);
     const message =
-      '<b>Chatwoot is an opensource tool. https://www.chatwoot.com</b>';
+      '<b>Chatwoot is an opensource tool. https://chatcore.aligned-tech.com</b>';
     expect(wrapper.vm.getPlainText(message)).toMatch(
-      'Chatwoot is an opensource tool. https://www.chatwoot.com'
+      'Asigned is an opensource tool. https://chatcore.aligned-tech.com'
     );
   });
 });
