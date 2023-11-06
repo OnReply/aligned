@@ -75,8 +75,8 @@
     "SLACK": {
       "DELETE": "Ištrinti",
       "DELETE_CONFIRMATION": {
-        "TITLE": "Delete the integration",
-        "MESSAGE": "Are you sure you want to delete the integration? Doing so will result in the loss of access to conversations on your Slack workspace."
+        "TITLE": "Ištrinkite integraciją",
+        "MESSAGE": "Ar tikrai norite ištrinti integraciją? Tai padarius prarasite prieigą prie pokalbių Slack darbo erdvėje."
       },
       "HELP_TEXT": {
         "TITLE": "Slack integracijos naudojimas",
@@ -84,15 +84,16 @@
         "SELECTED": "selected"
       },
       "SELECT_CHANNEL": {
-        "OPTION_LABEL": "Select a channel",
+        "OPTION_LABEL": "Pasirinkite kanalą",
         "UPDATE": "Atnaujinti",
         "BUTTON_TEXT": "Connect channel",
         "DESCRIPTION": "Your Slack workspace is now linked with Aligned. However, the integration is currently inactive. To activate the integration and connect a channel to Aligned, please click the button below.\n\n**Note:** If you are attempting to connect a private channel, add the Aligned app to the Slack channel before proceeding with this step.",
-        "ATTENTION_REQUIRED": "Attention required"
+        "ATTENTION_REQUIRED": "Attention required",
+        "EXPIRED": "Your Slack integration has expired. To continue receiving messages on Slack, please delete the integration and connect your workspace again."
       },
-      "UPDATE_ERROR": "There was an error updating the integration, please try again",
-      "UPDATE_SUCCESS": "The channel is connected successfully",
-      "FAILED_TO_FETCH_CHANNELS": "There was an error fetching the channels from Slack, please try again"
+      "UPDATE_ERROR": "Atnaujinant integraciją įvyko klaida, bandykite dar kartą",
+      "UPDATE_SUCCESS": "Kanalas sėkmingai prijungtas",
+      "FAILED_TO_FETCH_CHANNELS": "Gaunant kanalus iš Slack įvyko klaida, bandykite dar kartą"
     },
     "DYTE": {
       "CLICK_HERE_TO_JOIN": "Spausti čia kad prisijungti",
@@ -102,27 +103,39 @@
       "CREATE_ERROR": "Įvyko klaida kuriant susitikimo nuorodą, pabandykite dar kartą"
     },
     "OPEN_AI": {
-      "AI_ASSIST": "AI Assist",
-      "WITH_AI": " %{option} with AI ",
+      "AI_ASSIST": "AI pagalba",
+      "WITH_AI": " %{option} su AI ",
       "OPTIONS": {
-        "REPLY_SUGGESTION": "Reply Suggestion",
-        "SUMMARIZE": "Summarize",
-        "REPHRASE": "Improve Writing",
-        "FIX_SPELLING_GRAMMAR": "Fix Spelling and Grammar",
-        "SHORTEN": "Shorten",
-        "EXPAND": "Expand",
+        "REPLY_SUGGESTION": "Atsakymo pasiūlymas",
+        "SUMMARIZE": "Apibendrinti",
+        "REPHRASE": "Pagerinkite rašymą",
+        "FIX_SPELLING_GRAMMAR": "Pataisykite rašybą ir gramatiką",
+        "SHORTEN": "Sutrumpinti",
+        "EXPAND": "Išskleisti",
         "MAKE_FRIENDLY": "Change message tone to friendly",
-        "MAKE_FORMAL": "Use formal tone",
-        "SIMPLIFY": "Simplify"
+        "MAKE_FORMAL": "Naudokite oficialų toną",
+        "SIMPLIFY": "Supaprastinti"
       },
       "ASSISTANCE_MODAL": {
-        "DRAFT_TITLE": "Draft content",
-        "GENERATED_TITLE": "Generated content",
-        "AI_WRITING": "AI is writing",
+        "DRAFT_TITLE": "Turinio juodraštis",
+        "GENERATED_TITLE": "Sugeneruotas turinys",
+        "AI_WRITING": "AI rašo",
         "BUTTONS": {
           "APPLY": "Use this suggestion",
           "CANCEL": "Atšaukti"
         }
+      },
+      "CTA_MODAL": {
+        "TITLE": "Integrate with OpenAI",
+        "DESC": "Bring advanced AI features to your dashboard with OpenAI's GPT models. To begin, enter the API key from your OpenAI account.",
+        "KEY_PLACEHOLDER": "Įveskite savo OpenAI API raktą",
+        "BUTTONS": {
+          "NEED_HELP": "Reikia pagalbos?",
+          "DISMISS": "Atsisakyti",
+          "FINISH": "Baigti nustatymus"
+        },
+        "DISMISS_MESSAGE": "You can setup OpenAI integration later Whenever you want.",
+        "SUCCESS_MESSAGE": "OpenAI integration setup successfully"
       },
       "TITLE": "Tobulinti naudojant AI",
       "SUMMARY_TITLE": "Apibendrinimas naudojant AI",

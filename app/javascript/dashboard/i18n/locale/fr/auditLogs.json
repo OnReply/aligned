@@ -56,8 +56,16 @@
       "EDIT": "%{agentName} a mis à jour une macro (#%{id})",
       "DELETE": "%{agentName} a supprimé une macro (#%{id})"
     },
+    "INBOX_MEMBER": {
+      "ADD": "%{agentName} a ajouté %{user} à la boîte de réception (#%{inbox_id})",
+      "REMOVE": "%{agentName} a retiré %{user} de la boîte de réception (#%{inbox_id})"
+    },
+    "TEAM_MEMBER": {
+      "ADD": "%{agentName} a ajouté %{user} à la boîte de réception (#%{team_id})",
+      "REMOVE": "%{agentName} a retiré %{user} de la boîte de réception (#%{team_id})"
+    },
     "ACCOUNT": {
-      "EDIT": "%{agentName} updated the account configuration (#%{id})"
+      "EDIT": "%{agentName} a mis à jour la configuration du compte (#%{id})"
     }
   }
 }

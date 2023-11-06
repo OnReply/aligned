@@ -40,10 +40,10 @@
     },
     "SUGGESTIONS": {
       "TOOLTIP": {
-        "SINGLE_SUGGESTION": "Add label to conversation",
-        "MULTIPLE_SUGGESTION": "Select this label",
-        "DESELECT": "Deselect label",
-        "DISMISS": "Dismiss suggestion"
+        "SINGLE_SUGGESTION": "Добавить метку в разговор",
+        "MULTIPLE_SUGGESTION": "Выбрать метку",
+        "DESELECT": "Отменить выбор метки",
+        "DISMISS": "Отменить предложение"
       },
       "POWERED_BY": "Aligned AI",
       "DISMISS": "Dismiss",
